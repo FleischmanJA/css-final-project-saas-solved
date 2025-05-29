@@ -253,5 +253,115 @@
         </div>
       </div>
     </section>
+    <section class="hire-us-section">
+      <div class="hire-us-section__inner container">
+        <div class="hire-us__content">
+          <div class="hire-us__content-header">
+            <h2>Hire Us</h2>
+            <p class="intro-normal">
+              Whatever your goal - we will get you there
+            </p>
+            <hr />
+            <em class="testimonial__text"
+              >“ I love front! I love the ease of use, I love the fact that I
+              have total creative freedom...”
+            </em>
+          </div>
+          <div class="hire-us__testimonial">
+            <div class="testimonial__header-content">
+              <h3 class="testimonial__names">Charlotte Moore</h3>
+              <p class="testimonial__designation">Head of Commercials, Slack</p>
+              <div class="testimonial__image-wrapper">
+                <img
+                  class="testimonial__image"
+                  src="./assets/images/man_one.jpg"
+                  alt="Charlotte Moore"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="hire-us__form">
+          <form class="form" id="frontForm" action="#">
+            <h3>Fill out the form and we'll be in touch as soon as possible</h3>
+            <div class="form-group">
+              <div class="form-control">
+                <label for="firstName">First Name</label>
+                <input
+                  id="firstName"
+                  name="first-name"
+                  type="text"
+                  placeholder="First Name"
+                />
+              </div>
+              <div class="form-control">
+                <label for="lastName">Name</label>
+                <input
+                  id="lastName"
+                  name="last-name"
+                  type="text"
+                  placeholder="Last Name"
+                />
+              </div>
+            </div>
+            <div class="form-control">
+              <label for="email">Email</label>
+              <input id="email" type="email" name="email" placeholder="Email" />
+            </div>
+            <div class="form-group">
+              <div class="form-control">
+                <label for="frontBudget">Budget</label>
+                <select name="budget" id="frontBudget">
+                  <option value="">Budget</option>
+                  <option value="0-500">$0 - $500</option>
+                  <option value="500-1000">$500 - $1000</option>
+                  <option value="1000-5000">$1000 - $5000</option>
+                </select>
+              </div>
+              <div class="form-control">
+                <label for="yourCountry">Country</label>
+                <select name="country" id="yourCountry">
+                  <option value="">Country</option>
+                  <option value="usa">USA</option>
+                  <option value="uk">UK</option>
+                  <option value="canada">Canada</option>
+                  <option value="australia">Australia</option>
+                  <option value="germany">Germany</option>
+                  <option value="france">France</option>
+                  <option value="spain">Spain</option>
+                </select>
+              </div>
+            </div>
+            <div class="form-control">
+              <label for="frontMessage">Tell us about yourself</label>
+              <textarea
+                id="frontMessage"
+                name="message"
+                rows="5"
+                cols="40"
+                placeholder="Tell us more about your project, needs, and timeline, please..."
+              ></textarea>
+            </div>
+            <div class="form__checkbox">
+              <input type="checkbox" id="frontCheckbox" />
+              <div class="checkbox__policy-links">
+                <label for="frontCheckbox"
+                  >Yes, I'd like to receive occasional marketing emails from
+                  Front. I have the right to opt out at any time.
+                </label>
+                <a href="#" class="cta-primary--text policy-links__link"
+                  >View privacy policy</a
+                >
+              </div>
+            </div>
+            <input
+              class="cta-primary--icon"
+              type="submit"
+              value="Submit Form"
+            />
+          </form>
+        </div>
+      </div>
+    </section>
   </body>
 </html>
