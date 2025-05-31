@@ -15,11 +15,11 @@ Please visit the [project mockups page](https://www.figma.com/design/Ou3rfktmwkX
 - [x] Fork the project to your github account
 - [x] Clone the project to your computer
 - [x] Open the project in VSCode with `code <cloned_repo_folder_name>`
-- [ ] All the tasks of the "Specific requirements" section MUST be solved
-- [ ] The code of the index.html and styles.css (all css files) should pass the W3C validation (Feel free to use either the [W3C web validator](https://marketplace.visualstudio.com/items?itemName=CelianRiboulet.webvalidator) VSCode extension or the [Online w3c Markup Validation Service](https://validator.w3.org/#validate_by_input))
+- [x] All the tasks of the "Specific requirements" section MUST be solved
+- [x] The code of the index.html and styles.css (all css files) should pass the W3C validation (Feel free to use either the [W3C web validator](https://marketplace.visualstudio.com/items?itemName=CelianRiboulet.webvalidator) VSCode extension or the [Online w3c Markup Validation Service](https://validator.w3.org/#validate_by_input))
 - [x] The code MUST be formatted with Prettier.
-- [ ] Push the changes to the Github repo, when finished.
-- [ ] Submit a .txt file with the Github repo url.
+- [x] Push the changes to the Github repo, when finished.
+- [x] Submit a .txt file with the Github repo url.
 
 ## Specific Requirements
 
@@ -48,4 +48,4 @@ Please visit the [project mockups page](https://www.figma.com/design/Ou3rfktmwkX
 
 `Tablet and mobile specific`
 
-- [ ] Should not have transition and keyframe animations working.
+- [x] Should not have transition and keyframe animations working.
